@@ -1,0 +1,576 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+img {
+  user-select: none;
+}
+
+.top-bar {
+  width: 100vw;
+  height: 7.5vh;
+  background-color: #d0cee2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.autentificare {
+  font-family: sans-serif;
+  margin-left: 60vw;
+  cursor: pointer;
+}
+
+.site-title {
+  color: white;
+  background-image: linear-gradient(green, black);
+  font-size: large;
+  padding-left: 20px;
+  border: 2px solid black;
+  border-radius: 15px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.poza-vinde-acuma {
+  cursor: pointer;
+}
+
+.covid-19 {
+  display: flex;
+  height: 5vh;
+  width: 100vw;
+  background-color: rgb(12, 187, 6);
+  justify-content: center;
+  padding-top: 2, 5vh;
+}
+.covid-19-p-1 {
+  color: white;
+  align-self: center;
+}
+.covid-19-p-2 {
+  color: white;
+  align-self: center;
+}
+.covid-19-p-3 {
+  color: white;
+  font-style: italic;
+  align-self: center;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding-top: 15px;
+}
+
+.details {
+  position: sticky;
+  width: 600px;
+  height: 500px;
+  padding: 1%;
+  -webkit-box-shadow: 0px 20px 56px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 20px 56px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 20px 56px 0px rgba(0, 0, 0, 0.2);
+  margin-top: 25px;
+  margin-left: 50px;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.marca-bar {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.parapraph-marca {
+  font-family: sans-serif;
+}
+
+.pret {
+  margin-left: 0px;
+}
+
+.paragraph-pret {
+  font-family: sans-serif;
+}
+
+.de-la-pret {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-left: 0px;
+}
+
+.pana-la-pret {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-left: 1.45vw;
+}
+
+.anul-fabricatiei-paragraph {
+  font-family: sans-serif;
+}
+
+.de-la-anul-fabricatiei {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.pana-la-anul-fabricatiei {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-left: 1.45vw;
+}
+
+.de-la-kilometraj {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.pana-la-kilometraj {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-left: 1.45vw;
+}
+
+.combustibil-1 {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.button {
+  font-family: sans-serif;
+  background-color: #6a00ff;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 80px;
+  cursor: pointer;
+}
+
+#vinde-acum {
+  font-family: sans-serif;
+  background-color: #0d61ab;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 0px;
+  cursor: pointer;
+}
+
+.right-side-bar {
+  height: 520px;
+  width: 700px;
+  position: sticky;
+  -webkit-box-shadow: 0px 20px 56px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 20px 56px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 20px 56px 0px rgba(0, 0, 0, 0.2);
+  padding: 0%;
+  margin-top: 25px;
+  margin-right: 400px;
+}
+
+.ad-img {
+  width: 700px;
+  height: 400px;
+}
+
+.add-texts-wrapper {
+  display: flex;
+  width: 500px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* .add-texts-wrapper p {
+  justify-content: space-evenly;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: darkgrey;
+  font-family: "Lato", sans-serif;
+  cursor: pointer;
+} */
+
+.car-name-1 {
+  font-family: sans-serif;
+}
+
+.button-car-1 {
+  font-family: sans-serif;
+  background-color: #008a00;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: -30px;
+  margin-left: 80px;
+  cursor: pointer;
+}
+
+.numar-km-1 {
+  margin-top: 40px;
+  font-family: sans-serif;
+}
+
+.capacitate-cilindrica {
+  margin-top: 40px;
+  font-family: sans-serif;
+}
+
+.pret-car-1 {
+  color: red;
+  font-family: sans-serif;
+  margin-top: 40px;
+}
+
+.euroii {
+  font-size: x-small;
+  color: red;
+  margin-left: -12px;
+  margin-top: 40px;
+}
+
+.combustibil-car-1 {
+  font-family: sans-serif;
+  margin-top: 40px;
+}
+
+.anul-masina-1 {
+  font-family: sans-serif;
+  margin-top: 40px;
+}
+
+.content-six-cars {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.car-2 {
+  height: 300px;
+  width: 320px;
+  position: sticky;
+  -webkit-box-shadow: 0px 20px 56px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 20px 56px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 20px 56px 0px rgba(0, 0, 0, 0.2);
+  padding: 0%;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.add-img-car-2 {
+  width: 320px;
+  height: 200px;
+}
+
+.add-texts-wrapper-car-2 {
+  display: flex;
+  width: 320px;
+  flex-wrap: wrap;
+}
+
+.car-name-2 {
+  font-family: sans-serif;
+}
+
+.anul-masina-2 {
+  font-family: sans-serif;
+  font-size: small;
+}
+
+.numar-km-car-2 {
+  font-family: sans-serif;
+  font-size: small;
+}
+
+.combustibil-car-2 {
+  font-family: sans-serif;
+  font-size: small;
+}
+
+.capacitate-cilindrica-car-2 {
+  font-family: sans-serif;
+  font-size: small;
+}
+
+.pret-car-2 {
+  font-family: sans-serif;
+  color: red;
+  font-size: small;
+}
+
+.euroii-car-2 {
+  font-size: xx-small;
+  font-family: sans-serif;
+  color: red;
+  margin-left: -10px;
+  margin-top: 5px;
+}
+
+.details-car-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.car-3 {
+  height: 300px;
+  width: 320px;
+  position: sticky;
+  -webkit-box-shadow: 0px 20px 56px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 20px 56px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 20px 56px 0px rgba(0, 0, 0, 0.2);
+  padding: 0%;
+  margin-top: 50px;
+}
+
+.add-img-car-3 {
+  width: 320px;
+  height: 200px;
+}
+
+.car-name-3 {
+  font-family: sans-serif;
+}
+
+.anul-masina-3 {
+  font-family: sans-serif;
+  font-size: small;
+}
+
+.numar-km-car-3 {
+  font-family: sans-serif;
+  font-size: small;
+}
+
+.combustibil-car-3 {
+  font-family: sans-serif;
+  font-size: small;
+}
+
+.capacitate-cilindrica-car-3 {
+  font-family: sans-serif;
+  font-size: small;
+}
+
+.pret-car-3 {
+  font-family: sans-serif;
+  color: red;
+  font-size: small;
+}
+
+.euroii-car-3 {
+  font-size: xx-small;
+  font-family: sans-serif;
+  color: red;
+  margin-left: -10px;
+  margin-top: 5px;
+}
+
+.details-car-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.car-4 {
+  height: 300px;
+  width: 320px;
+  position: sticky;
+  -webkit-box-shadow: 0px 20px 56px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 20px 56px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 20px 56px 0px rgba(0, 0, 0, 0.2);
+  padding: 0%;
+  margin-top: 50px;
+}
+
+.add-img-car-4 {
+  width: 320px;
+  height: 200px;
+}
+
+.car-name-4 {
+  font-family: sans-serif;
+}
+
+.anul-masina-4 {
+  font-family: sans-serif;
+  font-size: small;
+}
+
+.numar-km-car-4 {
+  font-family: sans-serif;
+  font-size: small;
+}
+
+.combustibil-car-4 {
+  font-family: sans-serif;
+  font-size: small;
+}
+
+.capacitate-cilindrica-car-4 {
+  font-family: sans-serif;
+  font-size: small;
+}
+
+.pret-car-4 {
+  font-family: sans-serif;
+  color: red;
+  font-size: small;
+}
+
+.euroii-car-4 {
+  font-size: xx-small;
+  font-family: sans-serif;
+  color: red;
+  margin-left: -10px;
+  margin-top: 5px;
+}
+
+.details-car-4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.car-5 {
+  height: 300px;
+  width: 320px;
+  position: sticky;
+  -webkit-box-shadow: 0px 20px 56px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 20px 56px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 20px 56px 0px rgba(0, 0, 0, 0.2);
+  padding: 0%;
+  margin-top: 50px;
+}
+
+.add-img-car-5 {
+  width: 320px;
+  height: 200px;
+}
+
+.car-name-5 {
+  font-family: sans-serif;
+}
+
+.anul-masina-5 {
+  font-family: sans-serif;
+  font-size: small;
+}
+
+.numar-km-car-5 {
+  font-family: sans-serif;
+  font-size: small;
+}
+
+.combustibil-car-5 {
+  font-family: sans-serif;
+  font-size: small;
+}
+
+.capacitate-cilindrica-car-5 {
+  font-family: sans-serif;
+  font-size: small;
+}
+
+.pret-car-5 {
+  font-family: sans-serif;
+  color: red;
+  font-size: small;
+}
+
+.euroii-car-5 {
+  font-size: xx-small;
+  font-family: sans-serif;
+  color: red;
+  margin-left: -10px;
+  margin-top: 5px;
+}
+
+.details-car-5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.car-6 {
+  height: 300px;
+  width: 320px;
+  position: sticky;
+  -webkit-box-shadow: 0px 20px 56px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 20px 56px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 20px 56px 0px rgba(0, 0, 0, 0.2);
+  padding: 0%;
+  margin-top: 50px;
+}
+
+.add-img-car-6 {
+  width: 320px;
+  height: 200px;
+}
+
+.car-name-6 {
+  cursor: pointer;
+  font-family: sans-serif;
+}
+
+.anul-masina-6 {
+  font-family: sans-serif;
+  font-size: small;
+}
+
+.numar-km-car-6 {
+  font-family: sans-serif;
+  font-size: small;
+}
+
+.combustibil-car-6 {
+  font-family: sans-serif;
+  font-size: small;
+}
+
+.capacitate-cilindrica-car-6 {
+  font-family: sans-serif;
+  font-size: small;
+}
+
+.pret-car-6 {
+  font-family: sans-serif;
+  color: red;
+  font-size: small;
+}
+
+.euroii-car-6 {
+  font-size: xx-small;
+  font-family: sans-serif;
+  color: red;
+  margin-left: -30px;
+  margin-top: 5px;
+}
+
+.details-car-6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
